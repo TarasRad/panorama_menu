@@ -60,12 +60,9 @@ border: 1px solid #8B5E3B;
     max-width: 1440px;
     width: 100%;
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
+    
     grid-template-columns: repeat(4, 1fr);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+ 
 }
 .categories-list-none-alc {
     max-width: 1440px;
@@ -155,18 +152,3 @@ ul {
     font-family: 'Spectral', serif;
     font-size: large;
 }
-
-  .categories-list {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    /* Додайте стилі для списку категорій "categories-list" за потребою */
-  }
-  .toggle-radio:checked + .categories .categories-list {
-    max-height: 1000px; /* Задайте достатньо велике значення, яке перевищує висоту контенту */
-    /* Додайте стилі для відображення списку категорій після розкриття */
-  }
-  /* Сховати оригінальний чекбокс */
-  .toggle-radio {
-    display: none;
-  }
