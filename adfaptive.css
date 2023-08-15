@@ -230,6 +230,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .product {
+        width: 185px;
         margin-top: 20px;
         justify-content: space-between;
     }

@@ -27,6 +27,6 @@ function toggleAndScroll(summaryElement) {
 
   if (detailsElement.open) {
       // Прокрутка до верху сторінки
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior: "auto" });
   }
 }
