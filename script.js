@@ -7,15 +7,14 @@ function toggleDetails(detailsElement) {
       }
   });
 
-  detailsElement.open = detailsElement.open;
-
-  if (detailsElement.open) {
+  if (!detailsElement.open) {
       const summaryElement = detailsElement.querySelector(".categories-title");
       if (summaryElement) {
           summaryElement.scrollIntoView({ behavior: "smooth", block: "start" });
       }
   }
 }
+
 function toggleAndScroll(summaryElement) {
   const detailsElement = summaryElement.parentElement;
   const allDetails = document.querySelectorAll(".categories");
@@ -25,8 +24,6 @@ function toggleAndScroll(summaryElement) {
           details.open = true;
       }
   });
-
-  detailsElement.open = !detailsElement.open;
 
   if (detailsElement.open) {
       // Прокрутка до верху сторінки
