@@ -26,7 +26,9 @@ function toggleAndScroll(summaryElement) {
   });
 
   if (detailsElement.open) {
-      // Прокрутка до верху сторінки
-      window.scrollTo({ top: 0, behavior: "auto" });
-  }
+    // Отримання координати верху елемента
+    const topCoordinate = detailsElement.getBoundingClientRect().top + window.scrollY;
+    // Прокрутка до координати елемента
+    window.scrollTo({ top: topCoordinate, behavior: "smooth" });
+}
 }
