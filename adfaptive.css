@@ -333,7 +333,7 @@
         grid-template-columns: 1fr;
     }
     .product {
-        margin-top: 20px;
+        display: block;
         justify-content: space-between;
     }
     .product-img {
@@ -342,8 +342,6 @@
         width: 100%;
         height: 200px;
         margin: 0 auto;
-        justify-content: center;
-        align-items: center;
         background-image: url(./img/small_pic.png);
         background-size: 200px 200px;
     }
@@ -353,10 +351,18 @@
         font-family: 'Spectral', serif;
         font-size: x-large;
         text-align: center;
-    
+    margin: 0;
+    }
+    .description {
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+        color: #8B5E3B;
+        font-size: 14px;
+        margin: 0;
     }
     .product-price {
-        margin-top: 8px;
+        margin: 0;
         color: #8B5E3B;
         font-family: 'Spectral', serif;
         font-size: x-large;
@@ -367,8 +373,7 @@
     .add-icon {
         width: 20px;
         height: 20px;
-        margin-left: 25px;
-    
+    margin-left: 30px;
     }
     
     

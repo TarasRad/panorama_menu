@@ -50,16 +50,21 @@ margin-top: 20px;
     margin-top: 50px;
     padding: 0 10px;
 }
-.categories-title::after {
-    position: fixed;
-    top: 0;
-}
 
-.categories-title:hover {
+/* .categories-title {
+    transition: background-color 0.3s, border 0.3s;
+  }
+  
+  .categories.open .categories-title {
+    color: #8B5E3B;
+    background-color: #ffffff;
+    border: 1px solid #8B5E3B;
+  } */
+/* .categories-title:hover {
 color: #8B5E3B;
 background-color: #ffffff;
 border: 1px solid #8B5E3B;
-}
+} */
 .categories-list {
     max-width: 1440px;
     width: 100%;
@@ -111,7 +116,7 @@ color: #8B5E3B;
     text-align: center;
 }
 .description {
-width: 150px;
+width: 185px;
 height: 60px;
 margin: 0 auto;
 color: #8B5E3B;
@@ -128,6 +133,7 @@ color: #8B5E3B;
 
 }
 .add-icon {
+    display: none;
     width: 20px;
     height: 20px;
     margin-left: 30px;

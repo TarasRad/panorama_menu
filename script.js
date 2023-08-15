@@ -10,25 +10,25 @@ function toggleDetails(detailsElement) {
   if (!detailsElement.open) {
       const summaryElement = detailsElement.querySelector(".categories-title");
       if (summaryElement) {
-          summaryElement.scrollIntoView({ behavior: "smooth", block: "start" });
+          summaryElement.scrollIntoView({ behavior: "auto", block: "start" });
       }
   }
 }
 
-function toggleAndScroll(summaryElement) {
-  const detailsElement = summaryElement.parentElement;
-  const allDetails = document.querySelectorAll(".categories");
+// function toggleAndScroll(summaryElement) {
+//   const detailsElement = summaryElement.parentElement;
+//   const allDetails = document.querySelectorAll(".categories");
 
-  allDetails.forEach(details => {
-      if (details !== detailsElement) {
-          details.open = true;
-      }
-  });
+//   allDetails.forEach(details => {
+//       if (details !== detailsElement) {
+//           details.open = true;
+//       }
+//   });
 
-  if (detailsElement.open) {
-    // Отримання координати верху елемента
-    const topCoordinate = detailsElement.getBoundingClientRect().top + window.scrollY;
-    // Прокрутка до координати елемента
-    window.scrollTo({ top: topCoordinate, behavior: "smooth" });
-}
-}
+//   if (detailsElement.open) {
+//     // Отримання координати верху елемента
+//     const topCoordinate = detailsElement.getBoundingClientRect().top + window.scrollY;
+//     // Прокрутка до координати елемента
+//     window.scrollTo({ top: topCoordinate, behavior: "auto" });
+// }
+// }
