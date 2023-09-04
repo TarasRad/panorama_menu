@@ -97,6 +97,8 @@
         align-items: center;
         margin: 0 auto;
         margin-bottom: 5px;
+        padding: 0;
+
     }
     .social-icons {
         width: 30px;
@@ -210,6 +212,8 @@
     }
     .social-icons {
         width: 30px;
+        padding: 0;
+
     }
     .toggle-radio:checked + .categories .categories-list {
         max-height: fit-content; /* Задайте достатньо велике значення, яке перевищує висоту контенту */
@@ -314,6 +318,8 @@
         align-items: center;
         margin: 0 auto;
         margin-bottom: 5px;
+        padding: 0;
+
     }
     .contact-info {
    
