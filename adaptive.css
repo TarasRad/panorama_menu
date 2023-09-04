@@ -84,12 +84,14 @@
         color: #8B5E3B;
         font-family: 'Spectral', serif;
         font-size: large;
+        margin-top: 20px;
+
     }
     .contact-info {
         list-style: none;
         color: #8B5E3B;
         font-family: 'Spectral', serif;
-        font-size: medium;
+        font-size: small;
     }
     .social .social-icons {
         display: flex;
@@ -194,7 +196,7 @@
     ul {
         color: #8B5E3B;
         font-family: 'Spectral', serif;
-        font-size: small;
+        font-size: large;
     }
 
     .social .social-icons {
@@ -308,8 +310,8 @@
     ul {
         color: #8B5E3B;
         font-family: 'Spectral', serif;
-        font-size: small;
         font-size: large;
+        margin-top: 20px;
 
     }
     .social .social-icons {

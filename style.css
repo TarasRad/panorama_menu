@@ -129,6 +129,8 @@ footer {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 25px;
+
     justify-content: center;
 }
 .contacts, .social {
@@ -138,6 +140,10 @@ ul {
     color: #8B5E3B;
     font-family: 'Spectral', serif;
     font-size: x-large;
+}
+li 
+{
+    margin: 5px;
 }
 .contact-info {
     display: block;
